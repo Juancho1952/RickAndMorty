@@ -1,0 +1,16 @@
+.form-search{
+    color: aliceblue;
+    cursor: pointer;
+}
+.Filter{
+    width: 270px;
+    background-color: var(--BG-Form);
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    gap: .5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,41 @@
+.body-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.card{
+    background-color: var(--BG-Card);
+    width: 270px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card-img{
+    width: 250px;
+    margin: auto;
+    border-radius: 25px 25px 0px 0px;
+}
+.card-tittle{
+    font-size: 30px;
+    border: .2px;
+    border-bottom-style: solid;
+    width: 230px;
+    margin: auto;
+    color: var(--Color-Letter);
+}
+.card-info{
+    color: var(--Color-Letter);
+    padding-left: 40px;
+}
+.card-info span{
+    color: var(--Color-Info);
+    transform: translateX(-20px);
+}
+.card-data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

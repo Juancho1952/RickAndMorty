@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+.msj-Error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(124, 175, 5, 0.897);
+    letter-spacing: 4px;
+}

@@ -1,0 +1,21 @@
+.header{
+    margin: 40px 20px;
+    margin-top: 100px;
+    border: 1.5px;
+    display: flex;
+    color: var(--Color-Info);
+    border-style:  double;
+}
+.header-info{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin: auto;
+}
+.header-data{
+    display: flex;
+    flex-direction: column;
+}
+.header-data span{
+    color: var(--Color-Letter);
+}
